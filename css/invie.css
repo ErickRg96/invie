@@ -402,6 +402,11 @@ input:focus, textarea:focus{
 
    .contacto{
       margin: 0 auto;
+      display: block;
+   }
+
+   .contacto a{
+      display: block;
    }
 
    .contacto img{
@@ -413,10 +418,18 @@ input:focus, textarea:focus{
       margin: 0 auto;
       width: 300px;
    }
+
+   .sexo label{
+      display: block;
+   }
  
    .intereses label{
       display: block;
-      font-size: 16px;
+      font-size: 20px;
+   }
+
+   input[type="text"]{
+      margin-bottom: 20px;
    }
 
    input[type="text"], input[type="email"]{
