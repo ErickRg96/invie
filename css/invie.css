@@ -419,6 +419,10 @@ input:focus, textarea:focus{
       width: 300px;
    }
 
+   .formulario .label{
+      font-size: 20px;
+   }
+
    .sexo label{
       display: block;
    }
